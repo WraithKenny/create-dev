@@ -1,17 +1,25 @@
 {
   "name": "create-dev",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "A CLI to bootstrap my new projects",
   "main": "bin/dev.js",
   "bin": {
     "create-dev": "./bin/create-dev",
     "dev-script": "./bin/dev-script"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wraithkenny/create-dev.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wraithkenny/create-dev/issues"
+  },
   "files": [
-    "bin/"
+    "bin/",
+    "src/"
   ],
   "author": "Ken Newman",
-  "license": "ISC",
+  "license": "GPL-2.0-or-later",
   "publishConfig": {
     "access": "public"
   },
