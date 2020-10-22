@@ -1,0 +1,26 @@
+{
+  "name": "create-dev",
+  "version": "1.0.0",
+  "description": "A CLI to bootstrap my new projects",
+  "main": "bin/dev.js",
+  "bin": {
+    "create-dev": "./bin/create-dev",
+    "dev-script": "./bin/dev-script"
+  },
+  "files": [
+    "bin/"
+  ],
+  "author": "Ken Newman",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "create-dev",
+    "dev-script"
+  ],
+  "dependencies": {
+    "esm": "^3.2.25"
+  }
+}

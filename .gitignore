@@ -1,0 +1,10 @@
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+
+# don't commit NPM or Bower etc.
+node_modules
