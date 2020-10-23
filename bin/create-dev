@@ -1,4 +1,4 @@
 #!/usr/bin/env node
 
 require = require('esm')(module);
-require('../src/create-dev').cli(process.argv);
+require('../src/create-dev').init(process.argv);
